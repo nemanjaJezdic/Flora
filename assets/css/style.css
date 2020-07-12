@@ -616,6 +616,9 @@ footer input[type="button"]{
     .w-93{
         width:90%;
     }
+    .cm{
+        width:60%;
+    }
 }
 @media screen and (max-width:375px){
     .w-65{
@@ -623,5 +626,8 @@ footer input[type="button"]{
     }
     .w-88{
         width:80%;
+    }
+    .cm{
+        width:90%;
     }
 }
