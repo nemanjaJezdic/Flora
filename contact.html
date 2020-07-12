@@ -113,7 +113,7 @@
                         <textarea name="message" placeholder="Your message"></textarea>
                        </div>
                        <div class="mt-5 wi-50 mx-auto">
-                         <input type="button" name="dugme" id="dugmed" value="SEND"/>
+                         <input type="button" name="dugme" id="dugmed" value="SEND" data-toggle="modal" data-target="#thanks"/>
                        </div>
                    </form>
                </div>
@@ -202,7 +202,18 @@
          </div>
       </div>
      </div>
-   
+     <div class="modal fade" id="thanks" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="text-secondary">Thank you!.We will answer you shortly.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <script src="https://kit.fontawesome.com/4a4a3bed48.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
